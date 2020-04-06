@@ -53,7 +53,7 @@ public class ANS2 {
     public static void main(String[] args) {
        
         Employee e1 = new Employee("Shreya", "Modi", 1300);
-        Employee e2 = new Employee("Shivanshu(MA BEST BUDDY)","Gupta",1500);
+        Employee e2 = new Employee("Shivanshu","Gupta",1500);
         System.out.println("\nFOR EMPLOYEE NUMBER ONE : "+e1.count +"\nThe first name of the employee : "+e1.getFirstName() + ""
                 + "\nThe last name of the employee : "+e1.getLastName() + "\nThe monthy salary is : "+e1.getMonthlySalary());
         System.out.println("\nFOR EMPLOYEE NUMBER ONE : "+e2.count +"\nThe first name of the employee : "+e2.getFirstName() + ""
